@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+/* Design Part start */
+#nav_bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-content: center;
+    align-items: center;
+}
+#nav_bar .right{
+    display: flex;
+    justify-content: flex-end;
+}
+#nav_bar .right ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    align-items: center;
+}
+
+#nav_bar .right ul li a{
+    text-decoration: none;
+    color: #333e48;
+}
+
+#nav_bar .left{
+    padding-left: 15px;
+}
+#nav_bar .left .logo{
+    height: 40px;
+    width: 40px;
+}
+#nav_bar .left .logo img{
+    width: 100%;
+}
+#nav_bar .right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart {
+    background-color: #b1b1b1ab;
+    border-radius: 25px;
+}
+
+.cart .up{
+    padding: 10px;
+    height: 100px;
+    /* border: 1px solid red; */
+    background-color: #92A3FD;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.cart .up .logo{
+    /* border: 1px solid red; */
+    height: 80px;
+}
+.cart .up .logo img{
+    height: 100%;
+}
+.cart .down{
+    /* border: 1px solid red; */
+    height: 165px;
+}
+.cart .down .text_content{
+    margin: 20px 10px 10px 40px;
+}
+.cart .down .text_content h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.cart .down .text_content p{
+    font-size: 12px;
+}
+.cart .down .button_section{    
+    margin-top: 30px;
+}
+
+.cart .down .button_section a{
+    background-color: #0051ff;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+
+    text-decoration: none;
+    border: 1px solid #15a3f9;
+}
+.cart .down .button_section a:hover{
+    background-color: #4965a1;
+
+}
+#design{
+    text-align: center;
+}
+#design .top{
+    background-color: #f6f9f9;
+    padding: 80px 0px;
+}
+.common_heading h2{
+    color: black;
+    font-size: 32px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+.common_heading p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #999999;
+}
+
+/* #design .bottom{
+    padding: 70px 0px;
+    text-align: center;
+    margin: 0 auto;
+} */
+/* #design .bottom .row{
+    display: flex;
+    flex-direction: row;
+}  */
+
+#design .bottom .col-md-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    /* width: 30%; */
+}
+
+
+/* Design Part End */
+
+/* Doctor Appointment */
+#doctor_appointment{
+    margin: 30px 0px;
+    background-color: #ececec;
+}
+#doctor_appointment .left{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+#doctor_appointment .left .text{
+    margin-bottom: 30px;
+}
+#doctor_appointment .left .text h1{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+#doctor_appointment .left .text p{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+#doctor_appointment .left .button{
+    
+}
+#doctor_appointment .left .button a{
+    padding: 15px;
+    text-decoration: none;
+    background-color: #007E85;
+    color: white;
+}
+#doctor_appointment .left .button a:hover{
+    background-color: #53cad0;
+}
+/* For Education Banner */
+#doctor_appointment .education_banner .left{}
+#doctor_appointment .education_banner .left .button{}
+.education_banner .left .button a{
+    margin: 0px 10px;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #007E85;
+    border-radius: 15px;
+}
+.education_banner .right {}
+#doctor_appointment .right .img{
+    padding: 40px;
+    height: 500px;
+}
+#doctor_appointment .right .img img{
+    height: 100%;
+}
+
+#doctor_appointment .form_content{
+    padding: 10px;
+}
+#doctor_appointment .form_content form{
+    display: flex;
+    justify-content: space-between;
+}
+#doctor_appointment .form_content form input, button, label{    
+    justify-content: center;
+    padding: 10px;
+}
+
+#doctor_appointment .form_content form button{    
+    padding: 10px 15px;
+    background-color: #007E85;
+    color : white; 
+}
+#doctor_appointment .form_content form button:hover{
+    background-color: #53cad0;
+}
+/* Education Content */
+
+#education{}
+#education #navbar{
+    padding-top: 20px;
+    display: flex;
+}
+#education #navbar .left{}
+#education #navbar .left .logo{
+    height: 40px;
+}
+#education #navbar .left .logo a{}
+#education #navbar .left .logo img{
+    height: 100%;
+}
+#education #navbar .mid{
+    display: flex;
+    box-sizing: border-box;
+}
+#education #navbar .mid form{
+    border: 2px solid #e0bf1d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+#education #navbar .mid form input {
+    width: 70%;
+    height: 100%;
+    outline: 0;
+    border: none;
+    background: transparent;
+    padding: 0px 10px 0px 20px;
+}
+#education #navbar .mid form select {
+    color: #606060;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    margin-right: 10px;
+    /* padding-right: 15px; */
+}
+#education #navbar .mid form button {
+    height: 100%;
+    width: 10%;
+    background-color: #fed700;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid #fed700;
+}
+#education #navbar .mid form button i {
+    font-size: 15px;
+    /* font-weight: 400; */
+}
+
+#education #navbar .right{
+    display: flex;
+    justify-content: flex-end;
+}
+#education #navbar .right ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#education #navbar .right ul li a{
+    text-decoration: none;
+    color: #333e48;
+}
+/* Courses */
+
+#courses{
+    padding: 40px 0px;
+}
+#courses .header .left{}
+#courses .header .left h3{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+#courses .cart_content {
+    /* border: 1px solid #e3e3e3; */
+    padding: 20px 10px;
+}
+#courses .cart_content .thumbnail{
+    /* height: 80%; */
+    /* width: 180px; */
+}
+#courses .cart_content .thumbnail img{
+    height: 100%;
+    border-radius: 15px;
+    width: 100%;    
+}
+#courses .cart_content .title{
+    font-size: 20px;
+    padding: 10px 0px;
+    padding-left: 10px;
+}
+#courses .cart_content .list{}
+#courses .cart_content .list ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#courses .cart_content .list ul li{
+    padding: 10px 0px ;
+    list-style: none;
+}
+#courses .cart_content .list ul li i{
+    padding: 0px 10px;
+}
+#courses .cart_content .list ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+#courses .cart_content .button{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+#courses .cart_content .button a{
+    background-color: #007E85;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+#courses .cart_content .button a i{
+    padding-left: 5px;
+}
+/*--------------- Footer ------------- */
+#footer{
+    background-color: white;
+}
+#footer .content{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+#footer .content p{
+    color: #999999;
+    font-size: 18px;
+}
+#footer .nav_links{
+    display: flex;
+    justify-content: flex-end;
+}
+#footer .nav_links .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #15a4fa;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#footer .nav_links i{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #222222;
+}
+
